@@ -1,0 +1,27 @@
+footer{
+    color: red;
+}
+
+.alert{
+    ul {
+       > li {
+                a{
+                    color: red;
+                }
+        }
+
+       +p{
+        margin-top: 1rem;
+       }
+       
+       
+    }
+}
+.warning{
+    ul,
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+
